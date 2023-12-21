@@ -178,7 +178,7 @@
 
 
 .bg-image{
-  background-image: url(./assets/Digitalism/bg.jpg);
-  height: 100vh;
-  object-fit: cover;
+  background-image: url('./assets/Digitalism/bg.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
 }

@@ -1,4 +1,34 @@
-.img{
-    width: 100%;
-    width: 100%;
+.img {
+  width: 100%;
+  width: 100vh;
+}
+
+.header__main {
+  padding: 140px 40px 0px 40px;
+  height: 100vh; 
+  position: relative;
+}
+.header__main .header__nft img {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+.header__text {
+  color: aquamarine;
+  width: 50%;
+  height: 60%;
+}
+
+.header__text-coname {
+  font-size: 5rem;
+  padding-bottom: 0.5rem;
+  font-family: var(--font-base);
+  font-weight: bolder;
+}
+
+.header__text-info {
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  
+  font-size: 1rem;
 }
