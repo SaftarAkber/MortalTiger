@@ -5,7 +5,7 @@
 
 .header__main {
   padding: 140px 40px 0px 40px;
-  height: 100vh; 
+  height: 100vh;
   position: relative;
 }
 .header__main .header__nft img {
@@ -15,20 +15,53 @@
 }
 .header__text {
   color: aquamarine;
-  width: 50%;
-  height: 60%;
+  width: 60%;
 }
 
 .header__text-coname {
-  font-size: 5rem;
+  font-size: 6rem;
   padding-bottom: 0.5rem;
-  font-family: var(--font-base);
+  font-family: var(--font-alt);
   font-weight: bolder;
+}
+
+.image {
+  background-image: url("../../assets/Digitalism/text.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .header__text-info {
   font-family: var(--font-alt);
-  color: var(--color-golden);
-  
-  font-size: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  color: #022102f0;
+  text-align: justify;
+  width: 80%;
+}
+
+.btn {
+  background: #135f194d;
+  border: 1px solid #47a927;
+  box-shadow: 0px 2px 0 #065518, 2px 4px 6px #0b4b13eb;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #054505;
+  transition: all 150ms linear;
+  cursor: pointer;
+
+  height: 4rem;
+  margin: 1%;
+  width: 8rem;
+}
+.btn:hover {
+  background: #124905;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #0e751a;
+  transition: all 250ms linear; 
 }

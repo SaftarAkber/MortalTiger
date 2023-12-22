@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  background-color: #00000080;
 }
 
 .app__navbar-logo {
@@ -32,7 +33,7 @@
   cursor: pointer;
 }
 .app__navbar-links li:hover {
-  color: var(--color-grey);
+  color: var(--color-green);
 }
 
 .app__navbar-login {
