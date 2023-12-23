@@ -19,7 +19,7 @@ const Header = () => (
     <div className="header__nft">
       <img src={images.NFT} alt="Tiger NFT"></img>
     </div>
-  </div>
+  </div> 
 );
 
 export default Header;

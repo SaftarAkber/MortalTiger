@@ -4,7 +4,7 @@
 }
 
 .header__main {
-  padding: 140px 40px 0px 40px;
+  padding: 60px 40px 0px 40px;
   height: 100vh;
   position: relative;
 }
@@ -43,25 +43,68 @@
 }
 
 .btn {
-  background: #135f194d;
+  background: #062508be;
   border: 1px solid #47a927;
-  box-shadow: 0px 2px 0 #065518, 2px 4px 6px #0b4b13eb;
+  box-shadow: 0px 2px 0 #065518, 4px 6px 8px #0b4b13eb;
   font-weight: 900;
-  letter-spacing: 1px;
-  color: #054505;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: #fcfcfc;
   transition: all 150ms linear;
   cursor: pointer;
 
+  border-radius: 20%;
   height: 4rem;
-  margin: 1%;
+  margin: 5%;
   width: 8rem;
 }
 .btn:hover {
-  background: #124905;
+  background: #054505;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
   color: #ffffff;
   text-decoration: none;
   text-shadow: -1px -1px 0 #0e751a;
-  transition: all 250ms linear; 
+  transition: all 250ms linear;
+}
+
+
+@media screen and (max-width: 1150px) {
+  
+  .header__text-coname {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .header__text {
+    width: 100%;
+  }
+  .header__text-info {
+    text-align: justify;
+    width: 100%;
+  }
+  
+  .btn{
+    display: inline-block;
+    margin: 10%;
+    width: 30%;
+
+  }
+
+  .header__nft {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header__text-coname {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .header__text {
+    width: 100%;
+  }
+  .header__text-info {
+    text-align: justify;
+    width: 100%;
+  }
+
 }
