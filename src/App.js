@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar } from "./components";
 import { AboutUs, FindUs, Footer, Gallery, Header } from "./container";
-import images from "../src/constants/images";
 import "./App.css";
 
 const App = () => (
