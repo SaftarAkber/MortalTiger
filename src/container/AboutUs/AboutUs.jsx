@@ -5,7 +5,7 @@ import './AboutUs.css';
 const AboutUs = () => (
   <div className='aboutus__header'>
     <div className='box'>
-      <p>What is Mortal Tiger</p>
+      <p className='text-7xl	text-gray-800'>What is Mortal Tiger</p>
     </div>
   </div>
 );
